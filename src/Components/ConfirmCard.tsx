@@ -71,7 +71,7 @@ function ConfirmCard() {
             </div>
           </div>
           <p className="mt-2 text-gray-300 w-full">
-            - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
           </p>
           <div className="mt-2 flex flex-row items-center justify-between">
             <u className="font-roboto text-gray-400 text-lg">
