@@ -8,6 +8,7 @@ import { HiClock } from "react-icons/hi2";
 import { FaUserGroup } from "react-icons/fa6";
 import { PiPiggyBankFill } from "react-icons/pi";
 import { CiCircleInfo } from "react-icons/ci";
+import { FiPlus } from "react-icons/fi";
 
 function ConfirmCard() {
   return (
@@ -72,10 +73,11 @@ function ConfirmCard() {
           <p className="mt-2 text-gray-300 w-full">
             - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
           </p>
-          <div className="mt-2 flex flex-row justify-between">
+          <div className="mt-2 flex flex-row items-center justify-between">
             <u className="font-roboto text-gray-400 text-lg">
               View payment summary
             </u>
+            <FiPlus className="text-gray-500 h-5 w-5" />
           </div>
         </div>
         <br className="text-gray-400" style={{ height: "1px" }} />
@@ -90,7 +92,6 @@ function ConfirmCard() {
               <CiCircleInfo />
             </u>
           </div>
-
           <div className="-mt-[70px] font-bold text-xl">$XXX</div>
         </div>
       </div>
