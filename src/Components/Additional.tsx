@@ -1,40 +1,34 @@
-import InputField from "./InputField";
-import { RiEarthLine } from "react-icons/ri";
 import { FaChevronDown } from "react-icons/fa6";
+import InputField from "./InputField";
 
 const inputArray = [
   {
     type: "text",
-    placeholder: "FullName *",
+    placeholder: "Input label *",
+    preIcon: null,
+    postIcon: null,
   },
   {
-    type: "number",
-    placeholder: "Country code *",
-    preIcon: <RiEarthLine className="h-6 w-6 text-gray-400" />,
+    type: "text",
+    placeholder: "Select *",
+    preIcon: null,
     postIcon: <FaChevronDown className=" text-gray-400" />,
   },
   {
-    type: "number",
-    placeholder: "Phone number *",
-  },
-  {
-    type: "email",
-    placeholder: "Email *",
-  },
-  {
-    type: "email",
-    placeholder: "Confirm email *",
+    type: "text",
+    placeholder: "Multiselect *",
+    preIcon: null,
+    postIcon: <FaChevronDown className=" text-gray-400" />,
   },
 ];
 
-function Details() {
+function Additional() {
   return (
     <div className="mt-10 flex flex-col">
       <div className="flex flex-col gap-4">
-        <h1 className="text-2xl font-semibold ">Enter your details</h1>
+        <h1 className="text-2xl font-semibold ">Additional information</h1>
         <p className="text-base text-gray-400">
-          We'll be sending your tickets to the details below. Booking for a
-          friend? Add their details.
+          We need a few more details to complete your reservation.
         </p>
       </div>
       <form className="flex flex-col gap-4 mt-5 font-roboto">
@@ -50,9 +44,8 @@ function Details() {
           );
         })}
       </form>
-      <div className="mt-5 h-[1px] w-full bg-gray-300"></div>
     </div>
   );
 }
 
-export default Details;
+export default Additional;

@@ -2,6 +2,8 @@ import Header from "./Components/Header";
 import ConfirmCard from "./Components/ConfirmCard";
 import FreeCancel from "./Components/FreeCancel";
 import Details from "./Components/Details";
+import Additional from "./Components/Additional";
+import Payment from "./Components/Payment";
 
 function MobileView() {
   return (
@@ -11,6 +13,8 @@ function MobileView() {
         <ConfirmCard />
         <FreeCancel />
         <Details />
+        <Additional />
+        <Payment />
       </div>
     </div>
   );
