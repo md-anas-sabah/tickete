@@ -12,7 +12,7 @@ import { FiPlus } from "react-icons/fi";
 
 function ConfirmCard() {
   return (
-    <div className="flex flex-col px-4 py-12">
+    <div className="flex flex-col px-4 mt-12">
       <h1 className="text-4xl font-semibold ">Confirm & pay</h1>
       <div className="flex-col flex mt-7 px-4 py-2 border border-gray-300 rounded-3xl">
         <div className="relative">
@@ -71,7 +71,7 @@ function ConfirmCard() {
             </div>
           </div>
           <p className="mt-2 text-gray-300 w-full">
-            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
           </p>
           <div className="mt-2 flex flex-row items-center justify-between">
             <u className="font-roboto text-gray-400 text-lg">
