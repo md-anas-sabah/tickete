@@ -4,6 +4,7 @@ import FreeCancel from "./Components/FreeCancel";
 import Details from "./Components/Details";
 import Additional from "./Components/Additional";
 import Payment from "./Components/Payment";
+import FAQs from "./Components/FAQ";
 
 function MobileView() {
   return (
@@ -15,6 +16,7 @@ function MobileView() {
         <Details />
         <Additional />
         <Payment />
+        <FAQs />
       </div>
     </div>
   );

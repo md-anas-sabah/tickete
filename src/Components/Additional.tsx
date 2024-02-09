@@ -44,6 +44,7 @@ function Additional() {
           );
         })}
       </form>
+      <div className="mt-5 h-[1px] w-full bg-gray-300"></div>
     </div>
   );
 }
