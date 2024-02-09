@@ -1,4 +1,4 @@
-import gallery from "../assets/gallery.webp";
+import gallery from "../../assets/gallery.webp";
 import BestsellerTag from "./BestsellerTag";
 
 import { MdOutlineStarHalf } from "react-icons/md";
