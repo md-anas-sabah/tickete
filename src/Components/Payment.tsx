@@ -5,11 +5,11 @@ import { RiMastercardFill } from "react-icons/ri";
 import { FaGooglePay } from "react-icons/fa";
 import { FaCcDinersClub } from "react-icons/fa";
 import { CiCircleInfo } from "react-icons/ci";
-import { PiPiggyBankFill } from "react-icons/pi";
+import { PiLockFill, PiPiggyBankFill } from "react-icons/pi";
 import { FaRegCircle } from "react-icons/fa6";
 import { FaApplePay } from "react-icons/fa6";
 import InputField from "./InputField";
-import ProceedButton from "./ProceedButton";
+import Button from "./Button";
 
 const inputArray = [
   {
@@ -109,7 +109,7 @@ function Payment() {
               cancellation policy
             </a>
           </p>
-          <ProceedButton />
+          <Button preIcon={<PiLockFill />} text={"Confirm & pay"} />
         </form>
       </div>
 

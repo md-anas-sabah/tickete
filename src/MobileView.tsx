@@ -4,7 +4,8 @@ import FreeCancel from "./Components/FreeCancel";
 import Details from "./Components/Details";
 import Additional from "./Components/Additional";
 import Payment from "./Components/Payment";
-import FAQs from "./Components/FAQ";
+import FAQs from "./Components/FAQuestion";
+import Footer from "./Components/Footer";
 
 function MobileView() {
   return (
@@ -18,6 +19,7 @@ function MobileView() {
         <Payment />
         <FAQs />
       </div>
+      <Footer />
     </div>
   );
 }
