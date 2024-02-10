@@ -10,6 +10,7 @@ import { FaRegCircle } from "react-icons/fa6";
 import { FaApplePay } from "react-icons/fa6";
 import InputField from "../Mobile/InputField";
 import Button from "../Mobile/Button";
+import Amount from "../Mobile/Amount";
 
 const paymentMethod = [
   {
@@ -128,6 +129,7 @@ function PaymentCard() {
       })}
 
       <div className="mt-5 h-[1px] w-full bg-gray-300"></div>
+      <Amount />
     </div>
   );
 }

@@ -1,7 +1,8 @@
 import Card from "./Components/Desktop/Card";
 import Header from "./Components/Mobile/Header";
 import Payment from "./Components/Desktop/Payment";
-
+import Question from "./Components/Desktop/Question";
+import DesktopFooter from "./Components/Desktop/DesktopFooter";
 
 function DesktopView() {
   return (
@@ -15,7 +16,15 @@ function DesktopView() {
             </div>
             <Card />
           </div>
+          <div className="sm:px-16">
+            <div className="h-[1px] w-full bg-gray-300"></div>
+          </div>
+          <Question />
+          <div className="sm:px-16">
+            <div className="h-[1px] w-full bg-gray-300"></div>
+          </div>
         </div>
+        <DesktopFooter />
       </div>
     </div>
   );

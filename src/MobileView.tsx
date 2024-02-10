@@ -6,6 +6,7 @@ import Additional from "./Components/Mobile/Additional";
 import Payment from "./Components/Mobile/Payment";
 import FAQs from "./Components/Mobile/FAQuestion";
 import Footer from "./Components/Mobile/Footer";
+import Amount from "./Components/Mobile/Amount";
 
 function MobileView() {
   return (
@@ -17,6 +18,7 @@ function MobileView() {
         <Details />
         <Additional />
         <Payment />
+        <Amount />
         <FAQs />
       </div>
       <Footer />
