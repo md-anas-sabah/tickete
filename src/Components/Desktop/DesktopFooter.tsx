@@ -3,7 +3,7 @@ import logo from "../../assets/logo.jpg";
 function DesktopFooter() {
   return (
     <div className="bg-black mt-8 h-60 flex flex-col">
-      <div className="flex w-2/4 items-center flex-1 sm:px-24 p-5">
+      <div className="flex w-2/4 items-center flex-1 sm:px-24 py-5">
         <img src={logo} alt="" className="h-10" />
       </div>
       <div className="mt-5 h-[1px] w-full bg-gray-600"></div>
