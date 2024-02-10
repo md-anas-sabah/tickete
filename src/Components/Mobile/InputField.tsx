@@ -3,8 +3,8 @@ import { ReactNode } from "react";
 interface InputProps {
   type: string;
   placeholder: string;
-  preIcon: ReactNode;
-  postIcon: ReactNode;
+  preIcon: ReactNode | null;
+  postIcon: ReactNode | null;
 }
 
 const InputField: React.FC<InputProps> = ({
